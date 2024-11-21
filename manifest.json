@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "My Chrome App",
+  "version": "1.0",
+  "description": "A Chrome App example.",
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "permissions": [
+    "fullscreen",
+    "storage",
+    "webview",
+    "app.window.alwaysOnTop" ,
+     "https://personal-mindfulness.vercel.app/",
+    "https://personal-mindfulness.vercel.app/"
+  ],
+  "kiosk_enabled": true
+  
+}
